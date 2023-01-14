@@ -45,6 +45,7 @@ export default function TextForm(props) {
     return (
         <div style={{color: props.mode==='dark' ? 'white':'#4A403E'}}>
             <h1>{props.header}</h1>
+            <h2>Adding this heade for ci/cd testing</h2>
             <div className="mb-3 my-3">
                 <textarea className="form-control my-2" id="myBox" rows="8" value={text} onChange={handleOnChange} style={{backgroundColor: props.mode==='dark' ? '#4A403E':'white', color: props.mode==='dark' ? 'white':'#4A403E'}}></textarea>
                 <button type="button" className="btn btn-primary my-1" onClick={handleUpClick} value={text}>Upercase Convert</button>
